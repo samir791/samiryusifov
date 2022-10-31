@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr:nth-child(even) {
+  background-color: #ffffff;
+}
+tr:hover {background-color: #c9e442;}
+        body{
+            background-color: rgba(103, 110, 94, 0.127);
+        }
+        table, tr, th, td {
+border: 1px solid rgb(0, 0, 0);
+border-collapse: collapse;
+background-color: rgba(116, 120, 122, 0.315);
+color: rgb(0, 0, 0);
+width: 30px; height: 50px;
+text-align: center;
+}
+.buton {
+background-color: red;
+height: 20px; width: 200px;
+color: rgb(255, 255, 255);
+}
+.qw{
+   accent-color: red
+   ;
+}
+</style>
+</head>
+<body>
+    <main>
+        <form action="">
+            <input type="checkbox" name="q" id="q" required>
+            <label for="q"> начало простостоя </label>  <br>
+            <input type="checkbox" name="w" id="w" required>
+            <label for="w"> состав-я аоф</label> <br>
+            <input type="date" name="e" id="e"><br>
+            <label for="e"> <small>дата начала</small></label><br><br>
+            <input type="date" name="r" id="r"><br>
+            <label for="r"> <small>дата окончания</small></label><br><br>
+            <label for="t">Станция</label><br>
+            <input type="text" name="t" id="t"><br>
+            <label for="y">Акт №</label><br>
+            <input type="text" name="y" id="y"><br>
+            <label for="u">Участок</label><br>
+            <input type="text" name="u" id="u"><br>
+            <label for="i">Причина</label><br>
+            <input type="text" name="i" id="i"><br>
+            <label for="a">№ вагона</label><br>
+            <input type="text" name="a" id="a"><br>
+            <label for="o">№ пути</label><br>
+            <input type="text" name="o" id="o"><br>
+            <input type="submit" value="F5 ИСКАТЬ> " class="buton">
+            <br><br><br><br><br>
+            <table style="width:60%">
+                <tr>
+                    <th> <input type="checkbox" name="" id=""  class="qw" value="false" ></th>
+                    <th>Дата/...</th>
+                    <th>Акт №</th>
+                    <th>Отправка</th>
+                    <th>Вагон</th>
+                    <th>Контейнер</th>
+                    <th>Отравитель/...</th>
+                    <th>Ст.Отравлен...</th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="" id="" class="qw"></td>
+                    <td>02.04.2021</td>
+                    <td>561</td>
+                    <td>01.04.2021</td>
+                    <td>12345678</td>
+                    <td>1234567812</td>
+                    <td>ООО "Предприят...</td>
+                    <td>Москва Товарна...</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="" id="" class="qw"></td>
+                    <td>02.04.2021</td>
+                    <td>561</td>
+                    <td>01.04.2021</td>
+                    <td>12345678</td>
+                    <td>1234567812</td>
+                    <td>ООО "Предприят...</td>
+                    <td>Москва Товарна...</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="" id=""  class="qw"value=></td>
+                    <td>02.04.2021</td>
+                    <td>561</td>
+                    <td>01.04.2021</td>
+                    <td>12345678</td>
+                    <td>1234567812</td>
+                    <td>ООО "Предприят...</td>
+                    <td>Москва Товарна...</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="" id=""  class="qw"></td>
+                    <td>02.04.2021</td>
+                    <td>561</td>
+                    <td>01.04.2021</td>
+                    <td>12345678</td>
+                    <td>1234567812</td>
+                    <td>OOO "Предприят...</td>
+                    <td>Москва Товарна...</td>
+                </tr> 
+             
+            </table>
+            
+            
+                <label for="number"><small>Rows per page:</small></label>
+                <select name="dropdown" id="number" class="rayon" >
+                    <option value="1" selected>1 </option>
+                    <option value="2" selected>2</option>
+                    <option value="3" selected>3</option>
+                    <option value="4" selected>4</option>
+                </select>
+
+                <!-- ekranda bu yazı çıxmır inspectdə adi yazı çıxır -->
+                <small>1-4 of 140 </small>
+        </form>           
+    </main>
+</body>
+</html>
